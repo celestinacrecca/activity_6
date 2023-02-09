@@ -1,0 +1,92 @@
+#include<stdio.h>
+
+int main(){
+
+    int MM,DD,YYYY;
+
+    printf("\nEnter Month: [1-12]: ");
+    scanf("%d", &MM);
+    printf("\nEnter Day: [1-31]: ");
+    scanf("%d", &DD);
+    printf("\nEnter Year: ");
+    scanf("%d", &YYYY);
+
+    switch(MM){
+    
+    case 1:
+     if(DD <= 31){
+        printf("January %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 2:
+     if(DD <= 29){
+        printf("February %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 3:
+     if(DD <= 31){
+        printf("March %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 4:
+     if(DD <= 30){
+        printf("April %d,%d",DD,YYYY);}
+         else printf("Invalid Input");
+    break;
+
+    case 5:
+     if(DD <= 31){
+        printf("May %d,%d",DD,YYYY);}
+         else printf("Invalid Input");
+    break;
+
+    case 6:
+     if(DD <= 30){
+        printf("June %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 7:
+     if(DD <= 31){
+        printf("July %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 8:
+     if(DD <= 31){
+        printf("August %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 9:
+     if(DD <= 30){
+        printf("September %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 10:
+     if(DD <= 31){
+        printf("October %d,%d",DD,YYYY);}
+        else printf("Invalid Input");
+    break;
+
+    case 11:
+     if(DD <= 30){
+        printf("November %d,%d",DD,YYYY);}
+         else printf("Invalid Input");
+    break;
+
+    case 12:
+     if(DD <= 31){
+        printf("December %d,%d",DD,YYYY);}
+         else printf("Invalid Input");
+    break;
+    default:
+        printf("INVALID");
+    }
+    return 0;
+    printf("Clarisse Nicole L. Berondo");
+}
